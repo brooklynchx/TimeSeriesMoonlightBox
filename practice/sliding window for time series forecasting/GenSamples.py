@@ -77,3 +77,5 @@ def create_samples2(dataset, target, start_index, end_index, history_size,
             labels.append(target[i:i+target_size])
 
     return np.array(data), np.array(labels)
+
+print("hello,world")
